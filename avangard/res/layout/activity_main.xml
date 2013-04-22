@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+    
+	    <CheckBox
+	        android:id="@+id/queue_support"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="18dp"
+	        android:layout_marginBottom="18dp"
+	        android:checked="true"
+	        android:text="@string/queue_support" />
+	    
+	    <Button
+                android:id="@+id/clear_button"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="28dp"
+	        	android:layout_marginBottom="18dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button_clear" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/atm_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_atm" />
+
+            <TextView
+                android:id="@+id/atmText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                 />
+
+            <Button
+                android:id="@+id/bank_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_bank" />
+
+            <TextView
+                android:id="@+id/bankText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                 />
+            
+            <Button
+                android:id="@+id/discounts_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_discounts" />
+
+            <TextView
+                android:id="@+id/discountsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                 />
+            
+            <Button
+                android:id="@+id/office_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_office" />
+
+            <TextView
+                android:id="@+id/officeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                 />
+            
+            <Button
+                android:id="@+id/rec_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_rec" />
+            
+            <TextView
+                android:id="@+id/recText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                 />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

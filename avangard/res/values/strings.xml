@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">avangard</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="queue_support">Support queue</string>
+    
+    <string name="button_atm">ATM</string>
+    <string name="button_bank">Bank</string>
+    <string name="button_discounts">Discounts</string>
+    <string name="button_office">Office</string>
+    <string name="button_rec">Rec</string>
+	<string name="button_clear">Clear All</string>
+    
+</resources>
